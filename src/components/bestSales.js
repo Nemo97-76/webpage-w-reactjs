@@ -8,6 +8,7 @@ import sale3 from "../images/3.jpg"
 import sale4 from "../images/4.jpg"
 import sale5 from "../images/5.jpg"
 import sale6 from "../images/6.jpg"
+import ModalImage from "react-modal-image"
 const BestSales = () => {
     return (
         <>
@@ -17,7 +18,7 @@ const BestSales = () => {
 
                     <div className="row mt-5" style={{ justifyContent: "space-evenly", width: "80%", margin: "auto" }}>
                         <div className="card mt-2" style={{ width: "18rem" }}>
-                            <img src={sale1} className="card-img-top pt-5" />
+                            <ModalImage small={sale1} className="card-img-top pt-5" medium={sale1} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">decoration</h5>
                                 <p className="card-text">decorate your place</p>
@@ -29,7 +30,7 @@ const BestSales = () => {
                         </div>
 
                         <div className="card mt-2" style={{ width: "18rem" }}>
-                            <img src={sale2} className="card-img-top pt-5" />
+                            <ModalImage small={sale2} className="card-img-top pt-5" medium={sale2} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">embroidered shirt</h5>
                                 <p className="card-text">grey shirt</p>
@@ -41,7 +42,7 @@ const BestSales = () => {
                         </div>
 
                         <div className="card mt-2" style={{ width: "18rem" }}>
-                            <img src={sale3} className="card-img-top pt-5" />
+                            <ModalImage small={sale3} className="card-img-top pt-5" medium={sale3} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">embroidered shoes</h5>
                                 <p className="card-text">stylish shose</p>
@@ -55,7 +56,7 @@ const BestSales = () => {
 
                     <div className="row mt-5 mb-5" style={{ justifyContent: "space-evenly", width: "80%", margin: "auto" }}>
                         <div className="card mt-2 " style={{ width: "18rem" }}>
-                            <img src={sale4} className="card-img-top pt-5" />
+                            <ModalImage small={sale4} className="card-img-top pt-5" medium={sale4} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">special gift</h5>
                                 <p className="card-text">embroidered necklace</p>
@@ -67,7 +68,7 @@ const BestSales = () => {
                         </div>
 
                         <div className="card mt-2" style={{ width: "18rem" }}>
-                            <img src={sale5} className="card-img-top pt-5" />
+                            <ModalImage small={sale5} className="card-img-top pt-5" medium={sale5} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">embroidered Name</h5>
                                 <p className="card-text">embroider your name</p>
@@ -79,7 +80,7 @@ const BestSales = () => {
                         </div>
 
                         <div className="card mt-2" style={{ width: "18rem" }}>
-                            <img src={sale6} className="card-img-top pt-5" />
+                            <ModalImage small={sale6} className="card-img-top pt-5" medium={sale6} hideDownload={true} hideZoom={true} />
                             <div className="card-body">
                                 <h5 className="card-title">embroidered shirt</h5>
                                 <p className="card-text">stylish shose</p>
