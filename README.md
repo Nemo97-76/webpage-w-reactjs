@@ -9,24 +9,4 @@
   <li>React.js</li>
   <li>bootstrap</li>
 </ul>
-<h3>Get started:</h3>
-<ol>
-  <li><h3>Clone the Repository:</h3></li>
-  <code>
-    git clone https://github.com/Nemo97-76/webpage-w-reactjs.git
-  </code>
-  <li><h3>Set Up Dependencies:</h3></li>
-  <ul>
-    <li>Refer to the<code> package.json </code> file for required dependencies.</li>
-    <li>Install dependencies using a package manager like <code> npm </code> or <code> yarn </code>:</li>
-    <code>npm install</code>
-  </ul>
-  <li><h3>Run the Development Server:</h3></li>
-  <ul>
-    <li>Instructions on how to start the development server will vary depending on your setup. Often, you can use a command like:</li>
-    <code>npm start</code>
-    <li>This will typically launch the application in your default web browser, allowing you to view and interact with the webpage during development.</li>
-  </ul>
-</ol>
-<hr>
 live preview:<a>Demo</a>
